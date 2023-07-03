@@ -9,6 +9,7 @@
         <module>his-cloud-pms</module>
         <module>his-cloud-sms</module>
         <module>his-cloud-bms</module>
+        <module>common-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
