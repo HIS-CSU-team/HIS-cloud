@@ -9,13 +9,14 @@
         <module name="common-api" />
         <module name="his-cloud-bms" />
         <module name="his-cloud-sms" />
+        <module name="Didtribute" />
         <module name="his-cloud-dms" />
-        <module name="his-cloud-pms" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Didtribute" options="-parameters" />
       <module name="HIS" options="-parameters" />
       <module name="common-api" options="-parameters" />
       <module name="his-cloud-bms" options="-parameters" />
