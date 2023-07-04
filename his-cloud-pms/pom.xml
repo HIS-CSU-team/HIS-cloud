@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>Didtribute</module>
+        <module>drug</module>
+        <module>Management</module>
     </modules>
 
     <properties>

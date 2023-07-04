@@ -77,6 +77,8 @@
                 <artifactId>guava</artifactId>
                 <version>16.0</version>
             </dependency>
+<!--mybitis-plus需要的包-->
+
         </dependencies>
     </dependencyManagement>
 </project>

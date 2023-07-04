@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>common-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>DBConnection</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

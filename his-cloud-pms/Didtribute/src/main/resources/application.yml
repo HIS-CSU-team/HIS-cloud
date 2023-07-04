@@ -1,0 +1,27 @@
+server:
+  port: 50000
+  error:
+    include-message: always
+
+spring:
+  application:
+    name: Didtribute
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        service: Didtribute
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        metadata:
+          mydata: hello
+
+        naming-load-cache-at-start: false
+        namespace: dev
+        cluster-name: Cluster-A
+        group: myGroup
+        register-enabled: false
+
+logging:
+  level:
+    com.broadview.coupon: debug
