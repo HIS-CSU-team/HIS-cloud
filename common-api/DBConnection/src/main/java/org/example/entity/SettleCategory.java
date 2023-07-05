@@ -1,14 +1,21 @@
 package org.example.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 @Data
-@TableName("settle_category")
+@TableName("settlecategory")
 public class SettleCategory {
-    private int ID;
-    private String SettleCode;
-    private String SettleName;
-    private int SequenceNo;
-    private int DelMark;
+    @TableId("ID")
+    int ID;
+    @TableField("SettleCode")
+    String SettleCode;
+    @TableField("SettleName")
+    String SettleName;
+    @TableField("SequenceNo")
+    int SequenceNo;
+    @TableField("DelMark")
+    int DelMark;
 }
