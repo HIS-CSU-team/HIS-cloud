@@ -22,7 +22,6 @@ public class CalController {
     @GetMapping("/add")
     public double add(double x,double y)
     {
-        System.out.println("控制器。。。");
         return calculatorService.add(x,y);
     }
 }
