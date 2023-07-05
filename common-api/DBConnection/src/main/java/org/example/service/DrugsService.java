@@ -1,7 +1,10 @@
 package org.example.service;
 
-import org.example.entity.drugs;
+import org.example.entity.Drugs;
 
 public interface DrugsService {
-    public void addDrug(drugs drugs);
+    void addDrug(Drugs drugs);
+    void deleteDrugById(int id);
+    void updateDrug(Drugs drugs);
+    Drugs getDrugById(int id);
 }
