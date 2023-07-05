@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/calculator")
 public class CalController {
 
-    @GetMapping("/ADD")
+    @GetMapping("/add")
     public double add(double x,double y)
     {
         return x+y;

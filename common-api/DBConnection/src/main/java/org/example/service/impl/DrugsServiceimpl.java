@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 public class DrugsServiceimpl implements DrugsService {
     @Autowired
     DrugsMapper drugsMapper;
+
     @Override
     public void addDrug(drugs drugs) {
     drugsMapper.insert(drugs);

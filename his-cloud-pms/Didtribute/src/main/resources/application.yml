@@ -18,9 +18,9 @@ spring:
 
         naming-load-cache-at-start: false
         namespace: dev
-        cluster-name: Cluster-A
+        cluster-name: Cluster-B
         group: myGroup
-        register-enabled: false
+        register-enabled: true
 
 logging:
   level:
